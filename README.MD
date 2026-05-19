@@ -23,7 +23,7 @@ https://github.com/dbrll/ATTN-11
 
 **PDP-11 source port by Dave Plummer**  
 Dave Plummer's PDP-11 assembly port, which this C implementation is derived
-from and translates into portable C89.  
+from and translated into portable C89.  
 https://github.com/davepl/pdpsrc/tree/main/bsd/attn
 
 ## Network Architecture

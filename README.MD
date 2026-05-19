@@ -7,9 +7,11 @@ the 6502 processor at 1.79 MHz.
 The network learns to reverse 8-digit sequences of random digits [0–9], using
 fixed-point arithmetic throughout — no floating point anywhere.
 
-The Atari code was constructed by first porting the PDP-11 assembler (`ai.asm`) to
-Mac C (clang). Once that was working correctly, the Mac C code was ported to cc65
+The Atari code was constructed by first porting the PDP-11 assembler (`ai.mac`) to
+macOS C (clang). Once that was working correctly, the macOS C code was ported to cc65
 and targeted the Atari 8-bit platform.
+
+There is effectively no assembly used in this implementation to maximize portability at the expense of performance.
 
 ## Credits
 
@@ -87,7 +89,7 @@ line of output so you have continuous feedback.
 ## Implementation Notes
 
 ## Function names
-- Generally are traceable back to AI.ASM (Plummer PDP-11 assembly)
+- Generally are traceable back to AI.MAC (Plummer PDP-11 assembly)
 
 ### C89 Compliance
 

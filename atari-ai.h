@@ -2,7 +2,7 @@
  * atari-ai.h — PDP-11 ATTN/11 → Atari 8-bit C port
  *
  * Fixed-point formats:
- *   Q7.8  = int16_t, value = raw / 256.0
+ *   Q8    = int16_t, value = raw / 256.0
  *   Q15   = int16_t, value = raw / 32768.0  (gradients)
  *   Q16   = int32_t, value = raw / 256.0    (weight accumulators)
  *   Q12   = int32_t, value = raw / 4096.0   (loss table)

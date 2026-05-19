@@ -1,4 +1,4 @@
-# attn/atari — Atari 8-bit
+# attn/atari — Paper Tape Is All You Need
 
 A single-layer transformer with self-attention, trained and run entirely on an
 Atari 8-bit computer (800). Written in C-89 and compiled with cc65 targeting

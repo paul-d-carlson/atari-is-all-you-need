@@ -18,7 +18,7 @@
 #include <stdio.h>
 
 /* ===== Fixed-point type aliases ===== */
-typedef int16_t q8;   /* Q7.8  — forward weights, activations */
+typedef int16_t q8;   /* Q8    — forward weights, activations */
 typedef int16_t q15;  /* Q15   — gradient accumulators          */
 typedef int32_t q16;  /* Q16   — weight accumulators (32-bit)   */
 typedef int32_t q12;  /* Q12   — loss table entries             */

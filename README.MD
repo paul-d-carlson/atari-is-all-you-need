@@ -41,7 +41,7 @@ Fixed-point formats:
 
 | Type  | C type     | Scale       | Use                          |
 |-------|------------|-------------|------------------------------|
-| Q7.8  | `int16_t`  | / 256.0     | Weights, activations         |
+| Q8    | `int16_t`  | / 256.0     | Weights, activations         |
 | Q15   | `int16_t`  | / 32768.0   | Gradient accumulators        |
 | Q16   | `int32_t`  | / 256.0     | Weight accumulators (32-bit) |
 | Q12   | `int32_t`  | / 4096.0    | Loss table entries           |

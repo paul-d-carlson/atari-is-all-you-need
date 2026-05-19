@@ -78,7 +78,7 @@ atari800 -xl -turbo -nosound atari-ai.xex
 ```
 
 `-turbo` removes the speed cap and runs at maximum host CPU speed. Training
-completes in seconds rather than the ** 11 hours! ** it would take at real 1.79 MHz.
+completes in minutes rather than the ** 11 hours! ** it would take at real 1.79 MHz.
 
 ### Real Hardware
 
